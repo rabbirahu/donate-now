@@ -1,0 +1,312 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "poppins" sans-serif;
+}
+
+.nav {
+    display: fleg;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+    color: rgb(158, 128, 128);
+    border: 5px;
+    border-radious: 2px;
+}
+
+.nav-skip {
+    width: 50%;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.list {
+    width: 60%;
+    display: fleg;
+    list-style: none;
+    margin-left: 50%;
+    font-weight: bold;
+    text-align: right;
+    justify-content: space-between;
+}
+
+#nav-btn {
+    margin: 10px;
+    padding: 10px 10px;
+    border: 10px;
+    background-color: tomato;
+    border: radius 10px;
+    color: white;
+    font-weight: 750;
+}
+
+#navbtn {
+    margin: 5px;
+    padding: 10px 10px;
+    border: 10px;
+    background-color: rgb(rgb(184, 146, 146), green, blue);
+    color: rgb(rgb(61, 52, 52), green, blue);
+}
+
+.banner {
+    background-image: url(images/donation7.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blank {
+    width: 10%;
+}
+
+.blank1 {
+    width: 10%;
+}
+
+.content-box {
+    width: 80%;
+    padding: 50px 30px 50px 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-left: 15%;
+    padding-top: 25%;
+    font-size: 35px;
+    color: aliceblue;
+    font: bold;
+    font-weight: bolder;
+    text-shadow: 5px;
+    text-overflow: clip;
+    opacity: 2;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+span {
+    color: tomato;
+}
+
+#btext {
+    padding-left: 100px;
+    font-size: 15px;
+    color: rgb(245, 243, 243);
+    text-align: center;
+    justify-content: space-between;
+    opacity: 2;
+}
+
+.h-button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: rgb(17, 17, 17);
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.d-today {
+    width: 60%;
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+h2 {
+    font-size: 39px;
+}
+
+#donate-today {
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.li-tk {
+    width: 50%;
+    height: 100px;
+    margin-left: 30px;
+    padding-left: 20%;
+    padding-right: 15%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+#tk3 {
+    color: tomato;
+    background-color: rgb(225, 214, 214);
+    border: 2px solid tomato;
+}
+
+#tk1,
+#tk3 {
+    padding: 15px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#tk1 {
+    background-color: #ddd;
+
+}
+
+.other-amount {
+    height: 80px;
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.d-button {
+    width: 100%;
+    text-align: center;
+}
+
+#d-button {
+    margin: 25px;
+    padding: 15px 25px;
+    border: 10px;
+    background-color: tomato;
+    border-radius: 5px;
+    color: rgb(253, 247, 247);
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.donate-plan {
+    width: 100%;
+    text-align: center;
+    font-size: medium;
+    margin-top: 80px;
+}
+
+#give-support {
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+.plan {
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.plan-iteam {
+    width: 25%;
+    text-align: justify;
+    padding: 20px;
+    margin: 5px;
+}
+
+.food {
+    background-color: rgb(221, 244, 221);
+}
+
+.Shelter {
+    background-color: rgb(202, 239, 227);
+}
+
+.Education {
+    background-color: rgb(235, 220, 202);
+}
+
+.news {
+    width: 100%;
+    display: flex;
+    padding: 80px 0px 80px 0px;
+}
+
+#img1,
+#img2 {
+    height: 300px;
+    width: 100%;
+    padding: 5px;
+}
+
+.iteam1,
+.iteam2 {
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px gray;
+    border-radius: 40px;
+}
+
+.iteam1 a,
+.iteam2 a {
+    color: rgba(15, 57, 242, 0.973);
+    cursor: pointer;
+
+}
+
+.update {
+    text-align: center;
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+#p-pdate {
+    text-align: justify;
+    padding-bottom: 10px;
+}
+
+.email {
+    text-align: center;
+    padding: 10px 0px 80px 0px;
+}
+
+input[type="email"] {
+    padding: 12px 20px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 10px 0px 0px 10px;
+    background-color: rgb(208, 191, 191);
+}
+
+#update-button {
+    padding: 13px 20px;
+    border: 15px;
+    background-color: rgb(237, 59, 28);
+    border-radius: 0px 5px 5px 0px;
+    color: rgb(232, 223, 223);
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    height: 150px;
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgb(14, 13, 13);
+}
